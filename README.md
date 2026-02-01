@@ -46,3 +46,88 @@ Example:
 ❌ Bad: math.operand1 = 5; (The code won't let you do this).
 
 ✅ Good: math.setOperand1(5); (This is the correct way).
+
+SAMPLE RUN
+=== Core Math Library (OOP Implementation) ===
+
+Select a Problem/Module:
+1. Problem 1: Arithmetic Operations
+2. Problem 2: Geometry Computations
+3. Problem 3: Number Analysis
+4. Problem 4: Hierarchy Design Info
+5. Problem 5: Extensibility Demo
+0. Exit
+Enter choice: 1
+Enter first number: 20
+Enter second number: 5
+Addition: 25.0
+Subtraction: 15.0
+Multiplication: 100.0
+Division: 4.0
+
+Select a Problem/Module:
+1. Problem 1: Arithmetic Operations
+2. Problem 2: Geometry Computations
+3. Problem 3: Number Analysis
+4. Problem 4: Hierarchy Design Info
+5. Problem 5: Extensibility Demo
+0. Exit
+Enter choice: 2
+  A. Circle
+  B. Rectangle
+  Select shape: A
+Enter Radius: 9
+Circle Area: 254.46900494077323
+Circumference: 56.548667764616276
+
+Select a Problem/Module:
+1. Problem 1: Arithmetic Operations
+2. Problem 2: Geometry Computations
+3. Problem 3: Number Analysis
+4. Problem 4: Hierarchy Design Info
+5. Problem 5: Extensibility Demo
+0. Exit
+Enter choice: 3
+Enter a number to analyze: 25
+Is Prime? false
+Factorial: 7034535277573963776
+Type: Odd
+
+Select a Problem/Module:
+1. Problem 1: Arithmetic Operations
+2. Problem 2: Geometry Computations
+3. Problem 3: Number Analysis
+4. Problem 4: Hierarchy Design Info
+5. Problem 5: Extensibility Demo
+0. Exit
+Enter choice: 4
+
+[Design Hierarchy Visualization]
+Base Class: MathematicalOperation
+  +-- ArithmeticOps
+  +-- GeometryOps
+  +-- NumberAnalysis
+
+Select a Problem/Module:
+1. Problem 1: Arithmetic Operations
+2. Problem 2: Geometry Computations
+3. Problem 3: Number Analysis
+4. Problem 4: Hierarchy Design Info
+5. Problem 5: Extensibility Demo
+0. Exit
+Enter choice: 5
+Enter angle in degrees: 45
+Sine: 0.7071
+Cosine: 0.7071
+
+Select a Problem/Module:
+1. Problem 1: Arithmetic Operations
+2. Problem 2: Geometry Computations
+3. Problem 3: Number Analysis
+4. Problem 4: Hierarchy Design Info
+5. Problem 5: Extensibility Demo
+0. Exit
+Enter choice: 0
+Exiting Library...
+BUILD SUCCESSFUL (total time: 48 seconds)
+
