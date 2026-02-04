@@ -43,9 +43,9 @@ Using Getters and Setters: If you want to change or read the numbers, you have t
 
 Example:
 
-❌ Bad: math.operand1 = 5; (The code won't let you do this).
+Bad: math.operand1 = 5; (The code won't let you do this).
 
-✅ Good: math.setOperand1(5); (This is the correct way).
+Good: math.setOperand1(5); (This is the correct way).
 
 SAMPLE RUN
 === Core Math Library (OOP Implementation) ===
